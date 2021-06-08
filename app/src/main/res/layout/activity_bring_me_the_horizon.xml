@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BringMeTheHorizon">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="BringMeTheHorizon-Drown"
+        android:textStyle="bold"
+        android:textSize="30dp"></TextView>
+
+
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:autoPlay="true"
+    app:showFullScreenButton="false"
+    app:videoId="TkV5709EG5M" />
+
+    <TextView
+    android:id="@+id/textView2"
+    android:layout_width="match_parent"
+    android:layout_height="230dp"
+    android:text="Bring Me the Horizon (BMtH) adalah grup musik rock Inggris yang dibentuk di Sheffield pada tahun 2004. Saat ini grup ini digawangi vokalis Oliver Sykes, gitaris Lee Malia, bassis Matt Kean, drummer Matt Nicholls, dan kibordis Jordan Fish. Saat ini mereka berada di bawah kontrak dengan RCA Records secara global dan Columbia Records secara eksklusif di Amerika Serikat."
+        />
+
+
+    </LinearLayout>
+
+
+

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".WhiteSwan">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="White Swan-OverHeat"
+        android:textStyle="bold"
+        android:textSize="30dp"></TextView>
+
+
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:autoPlay="true"
+        app:showFullScreenButton="false"
+        app:videoId="r0Wj11aH4hY" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:text="White Swan merupakan band asal Denpasar yang dibentuk pada 7 Oktober tahun 2016. Band ini beranggotakan Sugeng Wisnusutha (Vocal), Reza Mahaputra (Guitar), Satriya Dana (Bass), dan Maha Wahyu (Drum).[1] Nama band White Swan berasal dari sebuah botol kecap di suatu tempat makan yang dilihat setelah melakukan latihan band untuk pertama kali, yang memiliki gambar angsa putih. Namun dibalik itu, Angsa Putih dalam filosopi di Bali memiliki makna yang bersih, baik, bijaksana dalam mengambil keputusan, dan juga ada dimana mana. Itu yang membuat White Swan dipilih menjadi identitas band yang bergenre kan Rock ini."
+        />
+</LinearLayout>

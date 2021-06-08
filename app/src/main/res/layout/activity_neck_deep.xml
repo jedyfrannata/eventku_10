@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NeckDeep">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Neckdeep-December"
+        android:textStyle="bold"
+        android:textSize="30dp"></TextView>
+
+
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:autoPlay="true"
+        app:showFullScreenButton="false"
+        app:videoId="EQPcKe0LDdQ" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:text="Neck Deep adalah band punk pop Welsh dari Wrexham yang dibentuk pada 2012 ketika vokalis Ben Barlow bertemu dengan mantan gitaris utama Lloyd Roberts. Pasangan ini memposting lagu  Secara online dengan nama Neck Deep. Lagu ini segera mendapat perhatian online, mengakibatkan penambahan gitaris irama Matt West, drummer Dani Washington / Abasi, dan mantan bassis Fil Thorpe-Evans. Mereka merilis sepasang EP, Rain pada Juli (2012) dan A History of Bad Decisions (2013), keduanya direkam oleh kakak Barlow, sebelum menandatangani kontrak dengan Hopeless pada Agustus 2013."
+        />
+</LinearLayout>

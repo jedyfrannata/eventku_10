@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MomCalledKiller">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Mom Called Killer-Noisia"
+        android:textStyle="bold"
+        android:textSize="20dp"></TextView>
+
+
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:autoPlay="true"
+        app:showFullScreenButton="false"
+        app:videoId="Ch_D-mNQJII" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:text="Moms Called Killer, adalah gerombolan pengusung genre metalcore asal Denpasar, Bali. Mereka terbentuk di tahun 2007, tepatnya 20 Oktober 2007. Moms Called Killer terbentuk oleh lima orang yang memiliki kegemaran musik beraliran keras yang beragam. Namun, akhirnya mereka pun mampu menyamakan visi dengan membawakan genre metalcore. Nama Moms Called Killer sendiri mereka ciptakan, karena keyakinan mereka akan konsep musik yang mereka bawakan, yang dapat membawa sebuah spirit yang mampu membakar semangat para pendengarnya"
+        />
+</LinearLayout>

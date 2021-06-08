@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Seringai">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Seringai-Selamanya"
+        android:textStyle="bold"
+        android:textSize="30dp"></TextView>
+
+
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:autoPlay="true"
+        app:showFullScreenButton="false"
+        app:videoId="ZfUbSD_iV0k" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:text="Seringai terbentuk pada 2002 lalu bermula dari bubarnya band sang vokalis Arian 13, Puppen. Kemudian Arian mengajak Ricky Siahaan (gitaris Stepforward) serta Edy Khemod yang merupakan sahabat lama untuk membentuk band  oktan tinggi. Kemudian ada nama Toan dari band hardcore Fall yang bergabung untuk mengisi posisi pemain bass. Namun, posisi Toan kemudian digantikan oleh Sammy Bramantyo pada tahun 2004."
+        />
+</LinearLayout>

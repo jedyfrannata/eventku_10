@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Jangar">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Jangar-Konstan"
+        android:textStyle="bold"
+        android:textSize="30dp"></TextView>
+
+
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:autoPlay="true"
+        app:showFullScreenButton="false"
+        app:videoId="hEKFwAb11qI" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:text=" Jangar, kuartet heavy rock asal Denpasar, Bali, resmi meluncurkan single terbaru berjudul “Konstan” pada penghujung 2018 lalu. Berjudul “Konstan”, lagu tersebut memiliki nuansa heavy rock yang dibalut dengan unsur stoner dan disiram oleh minuman khas Bali oleh personel Jangar."
+        />
+</LinearLayout>

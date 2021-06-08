@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Rollfast">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Rollfast-Methanol"
+        android:textStyle="bold"
+        android:textSize="30dp"></TextView>
+
+
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:autoPlay="true"
+        app:showFullScreenButton="false"
+        app:videoId="ss_SUOb1C_o" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:text="Kedatangan unit rock psikedelia pulau Dewata ini dalam rangka mempromosikan “Pajeromon”, single pertama di tahun 2020 yang dirilis saat hari Valentine kemarin lewat label La Munai. Berdurasi 3 menit, Pajeromon adalah single perdana Rollfast sebagai teaser untuk album baru yang direncanakan dirilis tahun ini. Videonya sendiri keren, dikemas dalam bentuk 3D modelling, jarang ada video dengan format seperti ini di peta musik video di Indonesia. Mengangkat kisah monster fiksi bernama Pajeromon, di videonya Rollfast bercerita tentang pandangan mereka terhadap kehidupan sosial di Bali dengan segala macam keserahannya."
+        />
+</LinearLayout>

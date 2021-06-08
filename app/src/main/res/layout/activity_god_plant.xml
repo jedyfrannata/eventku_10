@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GodPlant"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="GodPlant-Radikal"
+        android:textStyle="bold"
+        android:textSize="30dp"></TextView>
+
+
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:autoPlay="true"
+        app:showFullScreenButton="false"
+        app:videoId="e4WzZHRinHQ" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:text="Godplant, grup sludge metal segar memberi darah baru dalam ranah musik cadas di Indonesia. Tentu ini menjadi alternatif menarik bagi penggemar musik ekstrem lokal.Grup yang terbentuk di Jakarta sekitar tahun 2013 itu resmi merilis album debut bertajuk Turbulensi melalui label Lawless Jakarta Records.Godplant terdiri dari Edo Raditya alias Litong sebagai vokalis, gitaris Riza Prawiro alias Oyoy, bassist Bahrul Ulum dan drummer Gilang Firdauzi alias Gicing. Mereka merekam Turbulensi di Studio 88 yang terletak di Cibubur, Jakarta Timur."
+        />
+
+</LinearLayout>

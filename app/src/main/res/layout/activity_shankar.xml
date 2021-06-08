@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Shankar">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Shankar-Holy Funeral"
+        android:textStyle="bold"
+        android:textSize="30dp"></TextView>
+
+
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:autoPlay="true"
+        app:showFullScreenButton="false"
+        app:videoId="yDFauYacBMI" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:text="Terlahir tepat di kota Denpasar pada akhir tahun 2016, SHANKAR mengusung jenis musik stoner/doom metal dengan formasi didalamnya Didit (vokal, gitar rhythm), Gus Adi (gitar lead), Aditya Baskara (bass) dan Kinon (drum).Awalnya kami terbentuk perkumpulan saat masih menempuh SMA dan mendapatkan panggung pertama di tahun 2017. Terinspirasi dari pemain sitar di era 70’an, nama SHANKAR memiliki arti membawa kebahagian dalam bahasa sanskerta."
+        />
+</LinearLayout>

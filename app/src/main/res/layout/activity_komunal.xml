@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Komunal">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Komunal-Ngarbone"
+        android:textStyle="bold"
+        android:textSize="30dp"></TextView>
+
+
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:autoPlay="true"
+        app:showFullScreenButton="false"
+        app:videoId="NFEB4dUMq0U" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:text="KOMUNAL  band asal bandung 4 kawan sepermainan yang merantau ke bandung dan mempunyai kegemaraan dalam bermusik lalu membentuk KOMUNAL pada bulan januari 2004 di bandung. musik komunal banyak dipengaruhi oleh band band lokal sperti godbless,Flowers, Puppen, Jeruji, Extreme Decay (buat apa mendengarkan musik – musik impor yg tidak bermutu) ujar mereka. doddy hamson sang vokalis yang berdarah tulen (MINANG) yang patut kita jadikan memorable dan tolak ukur . bersama kawan kawan telah berhasil membuat 2 album."
+        />
+</LinearLayout>

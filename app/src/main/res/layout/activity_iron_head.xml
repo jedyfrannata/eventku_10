@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".IronHead">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="IronHead-Menolak Lupa"
+        android:textStyle="bold"
+        android:textSize="30dp"></TextView>
+
+
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:autoPlay="true"
+        app:showFullScreenButton="false"
+        app:videoId="lZyVmN63eII" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:text="Ironhead adalah band Heavy/Stoner Rock dari Bali yang terbentuk pada tahun 2017 silam dengan beranggotakan Jiva pada vokal, Ricky pada bass, Mardanggax pada drum dan pada gitar diisi oleh Kevin dan Twin.Nama Ironhead dipilih karena terinspirasi dari mesin Harley Iron Head, karena mereka yakin mereka akan terus kokoh dan terus bertahan seperti mesin Iron Head yang dari dulu sampai sekarang masih bertahan."
+        />
+
+</LinearLayout>

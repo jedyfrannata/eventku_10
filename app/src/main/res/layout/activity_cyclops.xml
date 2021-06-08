@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Cyclops">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Cyclops-Green"
+        android:textStyle="bold"
+        android:textSize="30dp"></TextView>
+
+
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:autoPlay="true"
+        app:showFullScreenButton="false"
+        app:videoId="9Wm-KvF7v5U" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:text="@string/cyclops_adalah_band_doom_metal_asal_denpasar_bali_yang_di_gawangi_oleh_rama_bassist_black_guitarist_gung_yoga_drummer_band_ini_memilih_aliran_doom_karena_pada_dasarnya_masing_masing_personil_menyukai_aliran_doom_dengan_berbekal_influence_dari_beberapa_band_seperti_acid_king_sleep_om_high_on_fire_baru_baru_ini_mereka_menyelesaikan_rekaman_di_salah_satu_recording_house_di_bali_sekaligus_merilis_single_yang_berjudul_brontes_steropes_arges_single_ini_menceritakan_tentang_nama_band_ini_yaitu_cyclops_jadi_cyclops_merupakan_3_anak_dari_uranus_dan_gaea_yaitu_brontes_steropes_arges"
+        />
+
+
+</LinearLayout>
